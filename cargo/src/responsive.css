@@ -1,0 +1,55 @@
+@media only screen and (min-width: 768px) {
+  /* Media query for screens wider than 768px */
+  section.dashboard .slick-list .slick-track {
+    display: flex;
+  }
+  section.dashboard .slick-list .slide {
+    opacity: 1;
+  }
+  header .wrapper .article h1 span.arrow {
+    display: none;
+  }
+  /* max-height to show less content in description when viewed on smaller screens */
+  header .wrapper .article .description {
+    max-height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Media query for screens wider than 1024px */
+  .container header .wrapper {
+    text-align: left;
+    margin-left: 5%;
+    width: 480px;
+  }
+  /* Displaying the nav links in a row in header area */
+  .container header .header-nav-area #nav_container {
+    display: flex;
+  }
+  /* Displaying search form in a block */
+  .container header form {
+    display: block;
+  }
+  /* hiding menu icon */
+  .container header .menu-icon {
+    display: none;
+  }
+  /* Displaying footer in a block */
+  header .wrapper .article footer {
+    display: block;
+  }
+  /* display:flex for slick-track and giving min-width and padding */
+  section.dashboard .slick-list .slick-track {
+    display: flex;
+    min-width: 309px;
+    padding: 20px;
+  }
+  /* display:flex for slick-track */
+  section.dashboard .slick-list .slick-track[index="2"] {
+    display: flex;
+  }
+  /* show the slide */
+  section.dashboard .slick-list .slide {
+    opacity: 1;
+  }
+}

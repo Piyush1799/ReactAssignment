@@ -1,0 +1,48 @@
+/* Styling for the table container */
+.containerTable {
+  width: 90%;
+  background-color: #302d285b;
+  margin: 20px auto;
+  border-collapse: collapse;
+  color: #ffffff;
+  font-size: larger;
+}
+
+/* Styling for the message displayed when table is filtered */
+.msg {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: #35ce35;
+}
+
+/* Styling for the table header */
+.tableHead {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Styling for table header cells */
+.tableHead th {
+  padding: 15px;
+}
+
+/* Styling for table body */
+.tableBody {
+  font-size: large;
+  background-color: #00ffff;
+  color: #000000;
+  text-align: center;
+}
+
+/* Styling for table body cells */
+.tableBody td {
+  padding: 15px;
+}
+
+/* Styling for table body rows when hovered or active */
+.tableBody tr:hover,
+.tableBody tr:active {
+  background-color: #000000;
+  color: #ffffff;
+}

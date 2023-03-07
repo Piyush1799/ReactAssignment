@@ -1,0 +1,45 @@
+/* This is the style block for the main container */
+.container {
+  width: 96%;
+  margin: auto;
+  padding: 10px;
+  background-color: #84cfcc99;
+  border-radius: 15px;
+  box-shadow: #26394d 0px 20px 30px -10px;
+  margin-top: 50px;
+  position: relative;
+  padding-top: 60px;
+}
+
+/* This is the style block for the search field */
+.searchField {
+  display: inline-block;
+  padding: 5px;
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: large;
+}
+
+/* This is the style block for the filters */
+.filter {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+/* This is the style block for the filter labels */
+.filter label {
+  color: #1e1b1b;
+  font-weight: bold;
+}
+
+/* This is the style block for the filter select */
+.filter select {
+  padding: 5px;
+}

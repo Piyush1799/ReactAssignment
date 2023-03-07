@@ -1,0 +1,65 @@
+/*
+Defines styles for a login container, including its width, height, background color, margins, padding, and box shadow. The container is displayed as a flex container with its items vertically centered and arranged in a column. The login button is positioned at the bottom right of the container with a background color that changes on hover. An "invalid" class is defined to be used for error messages. 
+*/
+.LogIncontainer {
+  width: 40%;
+  height: 300px;
+  min-width: 250px;
+  max-width: 300px;
+  background-color: azure;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  vertical-align: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: #32325d40 0px 13px 27px -5px, #0000004d 0px 8px 16px -8px;
+}
+
+/* Defines styles for the email input field */
+.email {
+  margin-top: 5px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Defines styles for the password input field */
+.password {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+/* Defines styles for all input fields within the container */
+.LogIncontainer input {
+  padding: 5px;
+}
+
+/* Defines styles for the login button */
+.loginButton {
+  display: block;
+  margin-top: 15px;
+  width: 50%;
+  align-self: flex-end;
+  background-color: #00ff00;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+}
+
+/* Defines styles for the login button on hover */
+.loginButton:hover {
+  background-color: #ffffff;
+  color: #02ff02;
+}
+
+/* Defines styles for error messages */
+.invalid {
+  color: #ff000092;
+  margin: 0;
+  padding: 0;
+}

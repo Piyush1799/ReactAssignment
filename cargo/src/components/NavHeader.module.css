@@ -1,0 +1,25 @@
+/* Styles for the main navigation container */
+.mainnav {
+  position: relative;
+}
+
+.mainnav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* Styles for each list item in the main navigation */
+.mainnav ul li {
+  margin: 10px;
+  color: #260aff;
+  cursor: pointer;
+}
+
+/* Styles for the hover and active states of each list item in the main navigation */
+.mainnav ul li:hover,
+.mainnav ul li:active {
+  color: #7a6ce8;
+}

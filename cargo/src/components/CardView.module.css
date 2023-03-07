@@ -1,0 +1,13 @@
+.container {
+  /* Sets the width to 80% of the parent container and centers it horizontally */
+  width: 80%;
+  margin: 50px auto;
+  /* Creates a grid container with 2 columns and automatically sized rows */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 300px;
+  /* Sets the gap between grid items to 5px */
+  grid-gap: 5px;
+  /* Centers the text within each grid item */
+  text-align: center;
+}
